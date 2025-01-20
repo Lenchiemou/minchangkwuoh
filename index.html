@@ -3,6 +3,10 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Chewy&family=Knewave&family=Playwrite+VN:wght@100..400&display=swap" rel="stylesheet">
+
     <title>Yes or No</title>
     <style>
         body {
@@ -12,9 +16,15 @@
             align-items: center;
             height: 100vh;
             margin: 0;
-            font-family: Arial, sans-serif;
             background-color: #f9f9f9;
         }
+
+        body {
+            font-family: "Chewy", serif;
+            font-weight: 400;
+            font-style: normal;
+        }
+
 
         .image-container {
             text-align: center;
@@ -41,6 +51,9 @@
             cursor: pointer;
             border-radius: 5px;
             transition: transform 0.3s, background-color 0.3s;
+            font-family: "Chewy", serif;
+            font-weight: 400;
+            font-style: normal;
         }
 
         button#yes {
@@ -74,7 +87,7 @@
 <body>
     <div class="image-container">
         <img src="shrek.png">
-        <div class="text">Baby, Samahan mo ko sa pagtanda~ este, date tayo bukas?</div>
+        <div class="text">Baby, samahan mo ko sa pagtanda~ este, date tayo bukas?</div>
     </div>
     <div class="button-container">
         <button id="yes">Yes</button>
